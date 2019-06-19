@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <a href="http://www.baidu.com" id='uname'>百度
+  </a>
+  <script>
+	function changeLink(){
+		var uname=document.getElementById('uname');
+		uname.innerHTML='腾讯';
+		uname.setAttribute('href','http://www.qq.com')
+	}
+	
+  </script>
+  <button onclick='changeLink()'>修改</button>
+ </body>
+</html>
